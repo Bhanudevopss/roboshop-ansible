@@ -1,3 +1,9 @@
-- name: Print Redis
-  debug:
-    msg: Redis
+- rpm_key:
+    state: present
+    key: https://rpms.remirepo.net/RPM-GPG-KEY-remi
+- name: Install remi repo.
+  yum:
+    name: "http://rpms.remirepo.net/enterprise/remi-release-8.rpm"
+    state: present
+
+
