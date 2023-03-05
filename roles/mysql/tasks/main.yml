@@ -1,4 +1,4 @@
-- name: Setup MySQL repo
+- name: Setup MySQL Repo
   ansible.builtin.copy:
     src: mysql.repo
     dest: /etc/yum.repos.d/mysql.repo
