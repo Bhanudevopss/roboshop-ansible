@@ -1,3 +1,5 @@
-- name: Print Dispatch
-  debug:
-    msg: Dispatch
+- name: Load GoLang
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: golang
+
