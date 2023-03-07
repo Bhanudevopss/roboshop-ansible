@@ -1,4 +1,4 @@
-- name: Configure NodeJS Repo
+- name: Configure NodeJS repos
   ansible.builtin.shell: curl -sL https://rpm.nodesource.com/setup_lts.x | bash
 
 - name: Install NodeJS
@@ -22,4 +22,5 @@
 - name: SystemD Setup
   ansible.builtin.import_tasks:
     file: systemd-setup.yml
+
 
