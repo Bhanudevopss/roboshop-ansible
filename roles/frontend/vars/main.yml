@@ -1,2 +1,2 @@
 component: frontend
-node_explorer: true
+node_exporter: true

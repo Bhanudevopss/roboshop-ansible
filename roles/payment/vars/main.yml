@@ -1,2 +1,2 @@
 component: payment
-node_explorer: true
+node_exporter: true
