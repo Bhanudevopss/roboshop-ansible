@@ -2,6 +2,7 @@
   ansible.builtin.yum:
     name: golang
     state: installed
+    disable_gpg_check: yes
 
 - name: App Pre-requisites
   ansible.builtin.import_tasks:
