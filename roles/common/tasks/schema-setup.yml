@@ -30,3 +30,4 @@
     - name: Load Schema
       ansible.builtin.shell: mysql -h mysql-dev.devopswithbhanu.online -uroot -pRoboShop@1 < /app/schema/{{component}}.sql
 
+
